@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": ["node"]
+  },
+  "include": ["scripts", "src/config.ts", "src/core", "src/daily/date.ts", "src/daily/daily.ts"]
+}

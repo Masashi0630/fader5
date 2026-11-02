@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- OGP 画像(public/og.png、1200×630)の元。scripts/art/README の手順で PNG に書き出す -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    display: flex; align-items: center; gap: 48px; padding: 0 72px; box-sizing: border-box;
+    background: radial-gradient(circle at 75% 50%, #1b2a24 0%, #101215 60%);
+    color: #e8e9ec; font-family: 'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif;
+  }
+  .text { flex: 1; }
+  h1 { margin: 0; font-size: 116px; font-weight: 800; letter-spacing: 0.06em; line-height: 1; }
+  h1 span { color: #3ee08f; }
+  p { margin: 28px 0 0; font-size: 38px; font-weight: 700; line-height: 1.45; }
+  .sub { margin-top: 18px; font-size: 28px; font-weight: 600; color: #8a909a; }
+  svg { flex: none; }
+</style>
+</head>
+<body>
+  <div class="text">
+    <h1>FADER<span>5</span></h1>
+    <p>5本のフェーダーを、<br>光る帯にそろえる。</p>
+    <p class="sub">1日1問のパズル</p>
+  </div>
+  <svg width="400" height="436" viewBox="0 0 440 480">
+    <rect x="0" y="0" width="440" height="480" rx="28" fill="#181b20"/>
+    <rect x="16" y="190" width="408" height="96" rx="12" fill="#3ee08f" fill-opacity=".14"/>
+    <line x1="16" x2="424" y1="190" y2="190" stroke="#3ee08f" stroke-opacity=".6" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="16" x2="424" y1="286" y2="286" stroke="#3ee08f" stroke-opacity=".6" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="#2f343c">
+      <rect x="57" y="50" width="10" height="380" rx="5"/>
+      <rect x="137" y="50" width="10" height="380" rx="5"/>
+      <rect x="217" y="50" width="10" height="380" rx="5"/>
+      <rect x="297" y="50" width="10" height="380" rx="5"/>
+      <rect x="377" y="50" width="10" height="380" rx="5"/>
+    </g>
+    <g stroke="#3ee08f" stroke-width="4">
+      <circle cx="62" cy="26" r="9" fill="#3ee08f"/>
+      <circle cx="142" cy="26" r="9" fill="#3ee08f"/>
+      <circle cx="222" cy="26" r="9" fill="none" stroke="#767d89" stroke-width="3"/>
+      <circle cx="302" cy="26" r="9" fill="#3ee08f"/>
+      <circle cx="382" cy="26" r="9" fill="none" stroke="#767d89" stroke-width="3"/>
+    </g>
+    <g>
+      <rect x="28" y="206" width="68" height="40" rx="8" fill="#c9ccd2" stroke="#3ee08f" stroke-width="4"/>
+      <rect x="44" y="221" width="36" height="10" rx="5" fill="#3ee08f"/>
+      <rect x="108" y="236" width="68" height="40" rx="8" fill="#c9ccd2" stroke="#3ee08f" stroke-width="4"/>
+      <rect x="124" y="251" width="36" height="10" rx="5" fill="#3ee08f"/>
+      <rect x="188" y="330" width="68" height="40" rx="8" fill="#c9ccd2" stroke="#7a7f88" stroke-width="3"/>
+      <rect x="204" y="348" width="36" height="4" rx="2" fill="#2b2e34"/>
+      <rect x="268" y="214" width="68" height="40" rx="8" fill="#c9ccd2" stroke="#3ee08f" stroke-width="4"/>
+      <rect x="284" y="229" width="36" height="10" rx="5" fill="#3ee08f"/>
+      <rect x="348" y="96" width="68" height="40" rx="8" fill="#c9ccd2" stroke="#7a7f88" stroke-width="3"/>
+      <rect x="364" y="114" width="36" height="4" rx="2" fill="#2b2e34"/>
+    </g>
+  </svg>
+</body>
+</html>
